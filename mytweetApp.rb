@@ -5,10 +5,10 @@ require "twitter"
 # Certain methods require authentication. To get your Twitter OAuth credentials,
 # register an app at http://dev.twitter.com/apps
 
-YOUR_CONSUMER_KEY = "fI53hreh5tW2NhTtfngEQ"
-YOUR_CONSUMER_SECRET = "XiOH9rqpmtISnJDvVwLeDbm3MmVjYU91oFcBsDkqMK8"
-YOUR_OAUTH_TOKEN = "33058079-R6ifdmZLV8mr21SKs1rY99ZtGTaTaBxeWbUvoUmSc"
-YOUR_OAUTH_TOKEN_SECRET = "2KdoQT57qgE2OEDJlMlpJ27VBqmSSm2gdACGI1pI"
+YOUR_CONSUMER_KEY = ""
+YOUR_CONSUMER_SECRET = ""
+YOUR_OAUTH_TOKEN = ""
+YOUR_OAUTH_TOKEN_SECRET = ""
 Twitter.configure do |config|
   config.consumer_key = YOUR_CONSUMER_KEY
   config.consumer_secret = YOUR_CONSUMER_SECRET
